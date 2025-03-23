@@ -5,9 +5,13 @@ O Sudoku é um jogo de raciocínio lógico jogado em uma grade de 9x9, dividida 
 ✅ No mesmo bloco 3x3
 
 🎮 Como Jogar
+
+
 O jogo exibirá um menu com opções. Digite o número correspondente e pressione Enter para selecionar.
 
+
 🕹️ Opções do Menu
+
 
 1️⃣ Iniciar um novo jogo
 
