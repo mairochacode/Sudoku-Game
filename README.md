@@ -1,22 +1,36 @@
-<<<<<<< HEAD
-## Getting Started
+O Sudoku é um jogo de raciocínio lógico jogado em uma grade de 9x9, dividida em 9 subgrades de 3x3. O objetivo é preencher toda a grade com números de 1 a 9 sem repetir números:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+✅ Na mesma linha
+✅ Na mesma coluna
+✅ No mesmo bloco 3x3
 
-## Folder Structure
+🎮 Como Jogar
+O jogo exibirá um menu com opções. Digite o número correspondente e pressione Enter para selecionar.
 
-The workspace contains two folders by default, where:
+🕹️ Opções do Menu
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1️⃣ Iniciar um novo jogo
+Você precisará informar 9 números iniciais, um por um, no formato:
+Linha (0-8): 0
+Coluna (0-8): 0
+Número (1-9): 5
+Repita esse processo para os demais números iniciais.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2️⃣ Colocar um novo número
+Escolha um número de 1 a 9.
+Informe a linha e a coluna onde deseja colocá-lo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3️⃣ Remover um número
+Informe a linha e a coluna do número que deseja apagar.
 
-## Dependency Management
+4️⃣ Verificar o jogo
+Exibe o tabuleiro atualizado com os números já preenchidos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Sudoku-Game
->>>>>>> d1cb2c5b8f4bf449122c392d2ce6e68640ad6c23
+5️⃣ Verificar status do jogo
+O jogo verifica se está completo, incompleto ou contém erros.
+
+6️⃣ Limpar números do usuário
+Remove os números inseridos pelo jogador (mantendo os iniciais).
+
+0️⃣ Sair
+Fecha o jogo.
