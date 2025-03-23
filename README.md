@@ -12,9 +12,13 @@ O jogo exibirá um menu com opções. Digite o número correspondente e pression
 1️⃣ Iniciar um novo jogo
 
 Você precisará informar 9 números iniciais, um por um, no formato:
+
 Linha (0-8): 0
+
 Coluna (0-8): 0
+
 Número (1-9): 5
+
 Repita esse processo para os demais números iniciais.
 
 2️⃣ Colocar um novo número
